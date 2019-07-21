@@ -1,0 +1,117 @@
+body {background:rgb(55, 100, 100);
+      margin: 0px 50px 50px 50px;  
+      } 
+
+h1 {  color: white;
+      font-family: 'Tangerine', cursive;
+      font-size: 70px;
+      font-weight: bold;
+      text-align: center;
+      }
+
+h2 {text-align: center}
+
+   
+header::before {background-image: url(http://www.princesswithabackpack.com/wp-content/uploads/2012/01/cape-grace.jpg); alt: Backdrop;
+                display: block;
+                background-size: cover;
+                content: "";
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                width: 100%;
+                height: 100%;
+                z-index: -2;
+                opacity: 0.4;
+            }
+
+header{height: 100vh;
+       /*background-size: cover; 
+       background-image: url(http://www.princesswithabackpack.com/wp-content/uploads/2012/01/cape-grace.jpg);*/
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       
+       margin-bottom: 30px;
+      }
+
+#aboutMe {text-align: left;
+          margin: 50px 0px 0px 50px;
+          font-size: 40px;
+        }
+.clearfix::after {content: "";
+                  clear: both;
+                  display: table} 
+                  
+
+#pElement {width: 40%;
+          text-align: left;
+          margin-left: 15px;
+          color: white;
+          float: right
+        }  
+.image-cropper {
+          width: 300px;
+          height: 300px;
+          position: relative;
+          overflow: hidden;
+          border-radius: 50%;
+      }
+.profile-pic {
+        display: inline;
+        margin: 0 auto;
+        margin-left: -50%; 
+        height: 100%;
+        width: auto;
+      }   
+
+#floatImage {float: left;
+            width: 40%}
+      
+.flexParent {text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 50vh;
+      
+            }
+
+.flexChild {width: 140px;
+            height: 100px;
+            background: rgb(228, 222, 220);
+            padding: 8px;
+            margin: 5px;
+
+            text-align: center
+
+
+
+}
+
+#currentProjects {width: 100%;
+                  flex-wrap: wrap;
+                  
+                  
+}
+
+#experience {     background: white;
+                  background-size: cover;
+                  padding: 30px;
+
+
+            }
+
+#flexParent .flexChild .childWrapper a {
+      cursor: pointer;
+}
+#flexParent .flexChild .childWrapper {transition: all 0.3s ease-in-out;} 
+
+.childWrapper {background: url(img/crunchie.jpg)}
+
+@media screen and (max-width: 1300px)
+{}
+
+
+@media screen and (max-width: 970px)
+{}

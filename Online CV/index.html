@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -9,30 +10,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
 
-<style>
-   body {background:darkslategrey}
-   .navbar {position: position: top;}
-     .container-fluid { width: 100%;
-                position: relative;
-                text-align: left;
-                color: white;
-                font-family: "Tangerine", cursive ;
-                
-              }
-   .top-left {font-size: 37px;
-              position: absolute;
-              top: 8px;
-              left: 36px;
-              font-size: 90px;
-              font-size-adjust: inherit;
-              }
-</style>
+    <link rel="stylesheet" href="css/cv.css" type="text/css" >
 
     <title>Lee Murdock Online CV</title>
   </head>
+
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="width:100%;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <a class="navbar-brand" href="#">MyOnlineCV</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -47,40 +32,167 @@
               <a class="nav-link" target="_blank" href="https://za.linkedin.com/">Link</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Jump To
-              </a>
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Jump To</a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Completed Projects</a>
-                <a class="dropdown-item" href="#">Ongoing Projects</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">July</a>
-                <a class="dropdown-item" href="#">August</a>
+              <a class="dropdown-item" href="#">Completed Projects</a>
+              <a class="dropdown-item" href="#">Ongoing Projects</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">July</a>
+              <a class="dropdown-item" href="#">August</a>
               </div>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
         </div>
-      </nav>
+    </nav>
 
-  
+    <header>    
+      <h1>Lee Murdock, up & coming Web Developer</h1> 
+      <p style="color: white; text-align: center">I'm a Cape Town based web developer, who specialises in UI and web applications</p>
+    </header>      
+     
+    <section id="about">
+      <p id="aboutMe">About Me</p>
+      <HR>    
+      <div class="clearfix">
+        <div class="container">
+           <div id="floatImage">
+              <div class="image-cropper">
+                <img src="img/pic.jpg" class="profile-pic" alt="My Picture" >
+              </div>
+            </div>
+       
+         <p id="pElement">My name is Lee Murdock, and I am passionate about Technology and the power we now have at the tip of our fingers. I want to help improve the internet 
+      as we know it. I want to contribute to the most important invention of our time. There aren't many industries which are constantly evolving and rapidly 
+      improving like web development. I am outspoken, funny and diligent. I strive for perfection in all my work.
+    i find the problem solving in web development very logical and quickly grasp new concepts.</p>
+        </div>
+      </div>
+     </section>
+  <HR>  
+    
+    <section id="projects">  
+      <h2>My Projects</h2>
 
+      <div id="projectsWrapper">
 
-
-    <div class="container-fluid">
-          <img src="pic.jpg", style="width: 100%; height: 100%; margin: 75 0 0 0;" >  
-          <div class="top-left">Lee Murdock, </br> up & coming web developer</div>
+        <div id="flexParent">
           
-          </div>
+          <div class="flexChild"> 
+            <div class="childWrapper">
+              <a href="img/crunchie.jpg" title="">
+                <img src="img/crunchie.jpg" alt="crunchie pic">
+              </a>
+            </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+          </div>
+          
+          <div class="flexChild"> 
+            project 2
+
+          </div>
+          
+          <div class="flexChild"> 
+            project 3
+
+          </div>
+          
+          <div class="flexChild"> 
+            project 4
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+    </br>
+    <section id="experience">
+      <h2>EDUCATION & EXPERIENCE</h2> 
+      <div class="education"> 
+
+        <h3>Fairbairn High School</h3>
+        <p class="info">Grade 12 <span>&bull;</span> <em class="date">Matriculated in 2012</em></p>
+
+        <p>
+        I was a top student in high school and always placed top 5 in my class. I excelled in all the various subjects.
+        I matriculated with 6 A's and an aggregate of 87%.
+        I was also an avid hockey player and played 3 years for the first team.
+        School was a good experience for me as learning new concepts came easy to me. 
+        </p>
+
+      </div>
+      
+      <div class="education">
+
+          <h3>Stellenbosch University</h3>
+          <p class="info">Progressed until Student Intern <span>&bull;</span> <em class="date">2013-2018</em></p>
+  
+          <p>
+         I didn't know what i wanted to study straight out of highschool. My father was a dentist and the medical field
+         interested me. I completed my PreMed and began working as a student intern. Between the 30 hour shifts and the 
+         volume of theory they wanted me to study inbetween shifts, i fell out of love with the medical field and decided 
+         to focus on my interests and what makes me happy: Technology.
+         I gained so much experience during my time in the medical field. I spoke to a hundreds of people i would otherwise never have met and 
+         developed my ability to speak afrikaans. 
+          </p>
+  
+      </div>
+
+      <div class="workExperience">
+
+          <h3>Internet Cafe Store Manager</h3>
+          <p class="info">Part Time work as a student <span>&bull;</span> <em class="date">Feb 2011 - July 2012</em></p>
+  
+          <p>
+         I was working for a internet cafe which also designed and sold business cards.
+         It was my first job and i built a lasting relationship with my boss & i am still in touch with him.
+          </p>
+  
+      </div>
+
+      <div class="workExperience"> 
+
+          <h3>Butlers Pizza</h3>
+          <p class="info">Pizza Delivery <span>&bull;</span> <em class="date">Jan 2016 - Sep 2017</em></p>
+  
+          <p>
+          During my time as a medical student I found time to supplement my monthly allowance by working 4 shifts per week at Butlers Pizza.
+          I continued to develop my skill of engaging with clients.
+          </p>
+  
+      </div>
+
+      <div>
+
+          <h3>D'aria Wine Estate</h3>
+          <p class="info">Server <span>&bull;</span> <em class="date">2019-</em></p>
+  
+          <p>
+          I have recently started working at the event venue of a Wine Estate.
+          I work as a server during expos and other events. 
+          </p>
+  
+        </div>
+    </section>
+    
+    <section id="skills">
+      <div>
+        <h3>skills</h3>
+        <div>HTML</div>
+        <div>JavaScript</div>
+        <div>CSS </div>
+        <div>PHP</div>
+      </div>
+    </section>
+    
+    <footer>
+      <div>
+        contact
+        email leemur101@codespace.com
+        number 071 555 703
+      </div>
+    </footer>
+    
+ 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
